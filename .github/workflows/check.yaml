@@ -23,7 +23,7 @@ jobs:
         run: make --silent
 
       - name: run
-        run: ./travis_qmake_gcc_cpp14_gcov
+        run: ./travis_qmake_gcc_cpp17_gcov
 
       - name: Measure codecov
         run: |

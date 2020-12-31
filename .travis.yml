@@ -8,7 +8,7 @@ before_install:
 script: 
   - qmake
   - make --silent
-  - ./travis_qmake_gcc_cpp14_gcov
+  - ./travis_qmake_gcc_cpp17_gcov
   # Codecov
   - ./get_code_cov.sh >/dev/null
   - codecov >/dev/null
